@@ -4,7 +4,7 @@ body {
   text-align: center;
   font-weight: normal;
 }
-header {
+header, #designed {
   color: white;
   background: url(../images/the-flatiron-building.png) center;
   background-size: cover;
@@ -31,8 +31,11 @@ ul li {
   padding: 10px 0;
   display: block;
 }
-
 ul li a {
   color: white;
   font-size: 18px;
+}
+#designed p {
+  font-size: 23px;
+  font-weight: bold;
 }
