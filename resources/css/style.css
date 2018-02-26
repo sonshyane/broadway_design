@@ -27,6 +27,10 @@ h3 {
 p {
   font-size: 14px;
 }
+#designed p{
+  font-size: 23px;
+  font-weight: bold;
+}
 menu, ul {
   margin: 0;
   padding: 0;
@@ -41,14 +45,12 @@ ul li a {
   color: white;
   font-size: 18px;
 }
-footer ul { display: inline-block;}
+footer ul {
+  display: inline-block;
+}
 footer ul li {
   list-style: none;
   margin: 0;
   padding: 0;
   display: inline-block;
-}
-#designed p{
-  font-size: 23px;
-  font-weight: bold;
 }
