@@ -9,6 +9,12 @@ header, #designed {
   background: url(../images/the-flatiron-building.png) center;
   background-size: cover;
 }
+footer {
+  text-align: left;
+  background-color: dimgray;
+  font-size: 11px;
+  color: white;
+}
 h1 {
   font-size: 70px;
 }
@@ -25,7 +31,7 @@ menu, ul {
   margin: 0;
   padding: 0;
 }
-ul li {
+header ul li {
   list-style: none;
   margin: 0;
   padding: 10px 0;
@@ -35,7 +41,14 @@ ul li a {
   color: white;
   font-size: 18px;
 }
-#designed p {
+footer ul { display: inline-block;}
+footer ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+#designed p{
   font-size: 23px;
   font-weight: bold;
 }
